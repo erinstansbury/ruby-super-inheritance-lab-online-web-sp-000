@@ -9,9 +9,9 @@ class ChattyStudent < Student
     i = 1
     while i < 10
       super
-      i ++
+        i +=
     end
     puts "Pick me!"
   end
-  
+
 end
